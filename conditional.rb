@@ -1,8 +1,32 @@
 # 1. Use a variable to store a number, then write a condition that prints 0 if the number is equal to 10, and prints -1 otherwise.
 
+# num = gets.chomp.to_i
+# if num == 10
+#   p "0"
+# else
+#   p "1"
+# end
+
 # 2. Use a variable to store a number, then write a condition that prints -1 if the number is less than 10, prints 1 if the number is greater than 10, and prints 0 if the number is equal to 10.
 
+# num = gets.chomp.to_i
+# if num < 10
+#   p "-1"
+# elsif num > 10
+#   p "1"
+# elsif num = 10
+#   p "0"
+# end
+
 # 3. Use variables to store two numbers, then write a condition that prints 1 if the numbers are both less than 10, and prints 0 otherwise.
+
+# num1 = 1
+# num2 = 3
+# if num1 < 10 && num2 < 10
+#   p "1"
+# else
+#   p "0"
+# end
 
 # 4. Use a variable to store a number, then write a condition that prints 1 if the number is over 9000, and prints -1 otherwise.
 
@@ -18,5 +42,17 @@
 
 # 10. Use a variable to store a number, then write a condition that prints 5 if the number is greater than 80, prints 4 if the number is greater than 60, prints 3 if the number is greater than 40, prints 2 if the number is greater than 20, and prints 1 otherwise (only one print statement should occur).
 
+# num = 28
+# if num > 80
+#   p "5"
+# elsif num > 60
+#   p "4"
+# elsif num > 40
+#   p "3"
+# elsif num > 20
+#   p "2"
+# else
+#   p "1"
+# end
 
 # SOLUTIONS: https://gist.github.com/peterxjang/aee70f966f0f725609eee89b06e8a6c0
