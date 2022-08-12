@@ -78,14 +78,14 @@
 
 # 10. Start with an array of numbers and compute the maximum number.
 #     For example, [5, 10, 8, 3] becomes 10.
-numbers = [5, 10, 8, 3]
-max_number = numbers.reduce(numbers[0]) do |max_number, number|
-  if number > max_number
-    number
-  else
-    max_number
-  end
-end
+# numbers = [5, 10, 8, 3]
+# max_number = numbers.reduce(numbers[0]) do |max_number, number|
+#   if number > max_number
+#     number
+#   else
+#     max_number
+#   end
+# end
 p max_number
 
 # SOLUTIONS (using while loop): https://gist.github.com/peterxjang/376c8931a48549889eb3c9bc091e9f43
