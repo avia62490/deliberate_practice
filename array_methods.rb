@@ -1,9 +1,9 @@
 # 1. Create an array to store 3 words. Then add two more words to the array and print the array on one line.
 
-# words = ["computer", "keyboard", "mouse"]
-# p words
-# words.push("screen", "speaker")
-# p words
+words = ["computer", "keyboard", "mouse"]
+p words
+words.push("screen", "speaker")
+p words
 
 # 2. Create an array to store 4 letters. Then change the second letter to a number and print the array on one line.
 
