@@ -40,13 +40,13 @@
 #  5. Convert a hash into an array of hashes using the keys from each hash as the :id key in each of the array's hashes.
 #     For example, {321 => {name: "Alice", age: 31}, 322 => {name: "Maria", age: 27}} becomes [{id: 321, name: "Alice", age: 31}, {id: 322, name: "Maria", age: 27}].
 
-people_hash = {321 => {name: "Alice", age: 31}, 322 => {name: "Maria", age: 27}}
-array = []
-people_hash.each do |key, value|
-  new_item = {id: key}.merge(value)
-  array << new_item
-end
-p array
+# people_hash = {321 => {name: "Alice", age: 31}, 322 => {name: "Maria", age: 27}}
+# array = []
+# people_hash.each do |key, value|
+#   new_item = {id: key}.merge(value)
+#   array << new_item
+# end
+# p array
 
 
 #  6. Convert an array of strings into a hash with keys for each string in the array and values for the number of times the string appears in the array.
